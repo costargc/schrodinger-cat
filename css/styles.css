@@ -7,6 +7,10 @@ body {
     padding:0px;
   }
 
+  strong.redcolour{
+    color: red;
+  }
+
 div.experience{
     line-height:1.2;
   }
