@@ -49,5 +49,18 @@ td.skill{
     line-height:1.6;
     font-family: "Lato", cursive
   }
+
+ img {
+     position: absolute;
+     animation: move 3s infinite ease-in-out;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+  }
+
+@keyframes move {
+  from{ transform: translateX(0px)}
+  to{   transform: translateX(550px)}
+}
+
   
 
