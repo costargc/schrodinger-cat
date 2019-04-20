@@ -7,47 +7,13 @@ body {
     padding:0px;
   }
 
-  strong.redcolour{
+strong.redcolour{
     color: red;
   }
-
-div.experience{
-    line-height:1.2;
-  }
-
-div.education{
-    line-height:1;
-    padding:0px; 
-    margin:0px; 
-  }
-
-  table.education{
-      margin-bottom: 15px;
-  }
-
-ul.education {
-    line-height:1;
-    margin:0px;
-}
-
-td.skill{
-    line-height:0.2;   
-}
-
-
-#centerme {
-    align-items: center;
-    text-align: center;
-}
-
-#rightme{
-    align-items: right;
-    text-align: right;
-}
   
   h1,h2,h3{
     line-height:1.6;
-    font-family: "Lato", cursive
+    font-family: "Lato", serif;
   }
 
  img {
