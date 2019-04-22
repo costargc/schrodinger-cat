@@ -16,6 +16,11 @@ strong.redcolour{
     font-family: "Lato", serif;
   }
 
+  #centerme {
+    align-items: center;
+    text-align: center;
+}
+
  img {
      position: absolute;
      animation: move 3s infinite ease-in-out;
