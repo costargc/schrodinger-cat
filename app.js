@@ -3,7 +3,7 @@
   $("#cat-button").on("click", function() {
 
     // Storing our giphy API URL for a random cat image
-    var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=Rz8lR3NuCx6OzODHGECAnJ2UfxgZc2DX&tag=cats";
+    var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=loWyj00bILUWgGTJBzXxba03ZaupxhcG&tag=cats";
 
     // Perfoming an AJAX GET request to our queryURL
     $.ajax({
