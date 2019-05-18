@@ -21,8 +21,8 @@ strong.redcolour{
     text-align: center;
 }
 
- img {
-     position: absolute;
+#scat {
+     /* position: absolute; */
      animation: move 3s infinite ease-in-out;
      animation-iteration-count: infinite;
      animation-direction: alternate;

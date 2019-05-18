@@ -2,21 +2,22 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <title>Quantum Mechanics Basics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-
-
 
 <body>
     <h1 id="centerme">Schrodinger's Cat</h1>
 
     <p id="centerme">a cat can be dead and alive <strong>at the same time!</strong></p>
 
-    <p>Quantum mechanics is crazy! They had to invent a whole new math just to say that when you don't know the answer -
+    <p>Quantum mechanics is crazy! They had to invent a whole new math just to say that when you don't know the answer
+        -
         all options are still on the table!</p>
 
     <h2>Experiment
@@ -32,11 +33,20 @@
         </ol>
         <p><strong>Answer:</strong> Until you open the box the cat is Dead and Alive at the same time!</p>
 
-        <img src="image/scat2.png" alt="Cat is Dead+Alive" height="300" width="300">
+        <img id='scat' src="image/scat2.png" alt="Cat is Dead+Alive" height="300" width="300">
 
     </DIV>
 
+    <p id="centerme">
+            <button type="button" class="btn btn-primary" id="cat-button">magical cat button</button>
+        <!-- <button id="cat-button">magical cat button</button> -->
+    </p>
 
+    <div id="images"></div>
+
+
+
+    <script src="app.js" charset="utf-u"></script>
 </body>
 
 </html>
